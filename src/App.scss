@@ -8,13 +8,14 @@
         background-color: #ddd;
         @at-root{
             .img-figure{
-                $size:300px;
-                $margin-top:20px;
+                $size:200px;
+                $margin-top:10px;
                 position: absolute;
                 width: $size;
                 height: $size+$margin-top*2;
                 margin: 5px;
-                padding: 20px;
+                padding: $margin-top*2;
+                padding-bottom: $margin-top*4;
                 background-color: #fff;
                 img{
                     width: $size;
